@@ -72,6 +72,11 @@ Nâng cao
         git branch name: tạo branch có tên 'name'
         git branch: xem các branch có trong repo
         git checkout 'branch name': chuyển từ branch này sang branch khác để code
-        
+        -- code xong, add, commit và push lên
+        -- khi code xong cần merge code
+        git branch main: về lại branch chính
+        git merge master
+        git log: xem update
+        git push: up lên lại server
 
 
