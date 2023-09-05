@@ -52,6 +52,26 @@ Thêm nhiều file
     git pull
     git log: xem update
 
-Sử trên cùng 1 file
-    
+Sửa trên cùng 1 file
+    -- conflict => trên server đã lưu, máy mình
+
+Nâng cao
+    git branch 
+    git checkout 
+    git merge 
+
+    Nâng cao
+    -- git rebase
+    -- git cherry-pick
+
+    Mỗi chức năng phức tạp sẽ không vội đưa vào master mà tạo một nhánh (branch) riêng
+    checkout, sau đó khi checkout đã chạy ok rồi người ta sẽ merge checkout đó 
+    vào src code chính master 
+
+    PULL REQUEST
+        git branch name: tạo branch có tên 'name'
+        git branch: xem các branch có trong repo
+        git checkout 'branch name': chuyển từ branch này sang branch khác để code
+        
+
 
