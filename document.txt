@@ -47,3 +47,11 @@ Thêm nhiều file
     git add .
     git commit
     gp (git push)
+
+Đồng bộ code
+    git pull
+    git log: xem update
+
+Sử trên cùng 1 file
+    
+
