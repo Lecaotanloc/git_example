@@ -1,0 +1,49 @@
+git init: khởi tạo một repository trên máy /
+
+git clone: lấy trên mạng về
+
+git pull: đồng bộ trên mạng về máy
+
+git add: thêm file
+
+git commit: xác nhận
+
+git push: đồng bộ từ máy lên trên mạng
+
+git log | git status: check xem trạng thái của các file
+
+# or create a new repository on the command line
+    echo "# git_example" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/Lecaotanloc/git_example.git
+    git push -u origin main
+
+
+…or push an existing repository from the command line
+    git remote add origin https://github.com/Lecaotanloc/git_example.git
+    git branch -M main
+    git push -u origin main
+
+Demo
+   2 git init
+   3 git status
+   4 cd git
+   5 git status
+   6 git init
+   7 git status
+   8 git add index.html
+   9 git status
+  10 git log
+  11 git commit -m "add index.html file"
+  12 git log
+  13 git branch -M main
+  14 git remote add origin https://github.com/Lecaotanloc/git_example.git
+  15 git push -u origin main
+
+Thêm nhiều file
+    git add .
+    git commit
+    gp (git push)
